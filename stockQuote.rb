@@ -20,10 +20,6 @@ class Stockquote
 		puts "Stock Info: #{qt.symbol}"
 			puts qt.to_s
 		end
-
-		stockQuote.each do |line|
-		puts line	
-		end
 	end
 end
 
